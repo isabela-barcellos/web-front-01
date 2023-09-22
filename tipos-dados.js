@@ -12,6 +12,6 @@ let casado = true;
 
 //Array - conjunto de elementos
 let linguagens = ["Java", "JavaScript","c#"];
-
-console.log(linguagens);
+//                  0         1         2
+console.log(linguagens[1]);
 
