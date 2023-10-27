@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(243, 217, 209);
+}
+
+
+
+.container{
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 5px; /* deixa a borda arredondada */
+    margin: 0 auto;
+    /* auto é para ficar automatico a centro */
+    text-align: center;
+}
+
+.card{
+    background-color: rgb(5, 77, 80);
+    height: 150px; /* altura  */
+    text-align: center;
+    line-height: 80px;
+    color: aquamarine;
+}
+
+.botao {
+    background-color: cornflowerblue;
+    color: beige;
+    padding: 20px;
+    margin: 20px;
+    border: 0;
+    cursor: pointer;  /*fica uma maozinha no botão */
+
+}
+
+.voltarDiv {
+    background-color: blueviolet;
+}

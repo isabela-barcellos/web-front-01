@@ -1,11 +1,12 @@
-function teste(arg1, arg2) {
-    console.log(arg1 + arg2);
-}
+//criando variavel
+const tirarDiv = document.querySelector(".tirarDiv");
+const voltarDiv = document.querySelector(".voltarDiv");
+const card = document.querySelector(".card");
 
-function imprimeNome(name){
-    console.log(`Meu nome é ${name}`);
-}
-imprimeNome("Isabela");
-imprimeNome("Barcellos");
-imprimeNome("Freire");
-teste(7, 1); //precisa chamar a função
+tirarDiv.addEventListener("click",function(){
+    card.style.display = "none";
+});
+ 
+voltarDiv.addEventListener("click",function(){
+    card.style.display = "block";
+});
